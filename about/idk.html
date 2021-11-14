@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Torrie's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="wrapper">
+                    <img src="" class="logo">
+                    <nav>
+                        <ul id="menuList">
+                                <li> <a href="">Showcase</a></li>
+                                <li> <a href="about/about.html">About Me</a></li>
+                                <li> <a href="">Testimonial</a></li>
+                                <li> <a href="">Contact Me</a></li>
+                        </ul>
+
+                    
+                        <img src="photos/icons8-menu-100.png" class="menu-icon" onclick="togglemenu()">
+                    </nav>
+                </div>  
+            </header>   
+
+
+            <div class="row">
+                <div class="col-1">
+                    <h2>Torrie<br>Rice</h2>
+                    <h3>Skills Showcase</h3>
+                    <p>I'm not playing games, but I may make some.</p>
+                    <h4>Full-Stack Developer<br>Web Developer</h4>
+                    <button type="button">See more<img src="">
+                    </button>
+                </div>
+                <div class="col-2">
+                    <img src="photos/controller-removebg-preview.png" class="controller">
+
+                    <div class="color-box"></div>
+                        
+                    <div class="add-btn">
+                        <img src="photos/icons8-controller-50.png">
+                        <p>Click to see more</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="social-links">
+                <img src="photos/icons8-facebook-64.png">
+                <img src="photos/icons8-instagram-64.png">
+                <img src="photos/icons8-snapchat.gif">
+                <img src="photos/icons8-here-80.png">
+            </div>
+        </div>
+
+        <script>
+            var menuList = document.getElementById("menuList");
+
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu(){
+
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight == "130px";
+                }
+                else{
+                    menuList.style.maxHeight == "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
