@@ -94,10 +94,9 @@ nav ul li a:hover{
 }
 
 .col-1 p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
     color: #000;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .col-1 h4{
@@ -106,8 +105,9 @@ nav ul li a:hover{
 }
 
 .col-2 img{
-    position: 
+ position: 
 }
+
 button{
     width: 140px;
     border: 0;
@@ -137,7 +137,7 @@ justify-content: space-between;
    position: absolute;
    left: -40px;
    top: 8px;
-}
+} 
 
 .col-2{
     position: relative;
@@ -172,6 +172,10 @@ justify-content: space-between;
     text-align: center;
     color: #fff;
     cursor: pointer;
+}
+
+.cards{
+    flex-direction: row;
 }
 
 .social-links img{
