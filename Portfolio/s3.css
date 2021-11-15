@@ -174,8 +174,13 @@ justify-content: space-between;
     cursor: pointer;
 }
 
-.cards{
+.cards-sec{
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 10px 10px;
 }
 
 .social-links img{
